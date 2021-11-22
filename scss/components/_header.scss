@@ -1,0 +1,42 @@
+nav{
+    img.logo{
+    width: 200px;
+    min-width: 200px;
+    height: 40px;
+    min-height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: .8;
+    margin: 0 0 0 40px;
+    &:hover{
+        opacity: 1;
+        cursor: pointer;
+    }
+}
+.steambutton {
+    text-decoration: none;
+    color: #fff;
+    width: auto;
+    height: auto;
+    &:hover{
+        text-decoration: none;
+        color: #fff;
+        width: auto;
+        height: auto;
+    }
+}
+.loginbutton{
+    text-decoration: none;
+    color: #212529;
+    width: auto;
+    height: auto;
+    &:hover{
+        text-decoration: none;
+        color: #fff;
+        width: auto;
+        height: auto;
+    }
+}
+}
+

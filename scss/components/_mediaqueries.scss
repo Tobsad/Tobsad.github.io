@@ -1,0 +1,23 @@
+@media screen and (min-width:975px) {
+    .noticias{
+        height: 250px;
+        
+        margin:auto ;
+    }
+    
+}
+@media screen and (max-width: 975px) {
+    .inverse1{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .mobiletags{
+        display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+    } 
+.newsbox0,.newsbox1,.newsbox2,.newsbox3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

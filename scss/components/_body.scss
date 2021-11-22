@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans',sans-serif;
+    //mapa//
+.mapa{
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+    .localizacion__iframe{
+        width: 90%;
+        padding-bottom: 50px;
+    }
+}
+
+.text-titulo{
+    font-size: 1.5rem;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f5d166;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.text-titulo1{
+    font-size: 3rem;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f5d166;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.rounded{
+    width: 100px;
+    height: 100px;
+    min-width: 100px;
+    min-height: 100px;
+    opacity: 0.7;
+    transition: 0.4s;
+    &:hover {
+        width: 140px;
+    height: 140px;
+    min-width: 140px;
+    min-height: 140px;
+    transition: 0.4s;
+    opacity: 1;
+    }
+    &:after {
+        width: 100px;
+    height: 100px;
+    min-width: 100px;
+    min-height: 100px;
+    transition: 0.4s;
+    }
+}
+
+.text-centrado{
+    text-align: center;
+}
+.margenes{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+}
+
+a.description{
+    color: #c4c4c4;
+    text-decoration: none;
+    cursor: pointer;
+    border: 3px solid #ffffff50;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: 0.5s;
+    &:hover{
+        border: 3px solid #d3060650;
+        color: #fff;
+        background: #d3060650;
+        transition: 0.5s ;
+    }
+}
+/*responsive del footer*/
+@media screen and (max-width:1100px) {
+    /*FOOTER RESPONSIVE*/
+    .container-body{
+        flex-wrap: wrap;
+    }
+    .container-footer-all{
+        padding-top: 0;
+    }
+    .column1,.column2,.column3{
+        margin-top: 20px;
+    }
+    .pfooter{
+        flex-wrap: wrap;
+    }
+    
+}
+main{
+    background-image: url(/wallpaper.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    
+}
+video{
+    width: 80%;
+    overflow: hidden;    
+}
+img.heroes{
+    width: 80%;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 -0.5rem;
+}
+
+.absolute{
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    z-index: 30;
+    padding: 1.5rem;
+    justify-content: center;
+
+}
+img.atributoheroe{
+    width: 32px;
+    height: 32px;
+}
+h1{
+    font-family: 'IM Fell English SC', serif;
+    font-size: 3rem;
+    font-weight: 900;
+    z-index: 100;
+    color: #fff;
+    margin-bottom: 30px;
+    &::after{
+        display: block;
+        width: 30%;
+        height: 10px;
+        content: "";
+        margin: auto;
+        background-color: #fff;
+    }
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #a5e0f3;
+    margin-top: 5px;
+}
+.description{
+    color: #fff;
+    
+}
+span.Bold{
+    font-weight: bold;
+}   
+
+/*LOGO EN ESCRITORIO O LAPTOP*/
+
+.submenu {
+    margin-right: 20px;
+    margin-left: 20PX;
+}
+.newbutton:hover{
+    background-color: #212529;
+    border-color: #212529;
+    color: #fff;
+}
+
+
+
+
+
+
+.card-title{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #a5e0f3;
+    margin-top: 5px;
+    border-radius: 10%;
+    text-align: center;
+}
+
+
+
+
+
+.titulonoticia{
+    font-size: 1.5rem;
+}
+
+
+}

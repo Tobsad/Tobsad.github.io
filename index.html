@@ -24,7 +24,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!--iconos-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--logo-->
 
+    <!--animate.style-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--title-->
     <title>Dota 2</title>
     <!--Styles-->
     <link rel="stylesheet" href="/css/styles.css">
@@ -34,36 +40,35 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"> 
-            <img class="img-fluid logo" src="/dotalog_desktop.png" alt=""> </a>
+            <img class="img-fluid logo" src="/dotalog_desktop.png" alt="logoDota"> </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-              <li class="nav-item elemento">
+              <li class="nav-item elemento submenu">
+                <a class="nav-link" href="/index.html">Inicio</a>
+              </li>
+              <li class="nav-item elemento submenu">
                 <a class="nav-link" href="/enlaces/heroes.html">Heroes</a>
               </li>
-              <li class="nav-item elemento">
+              <li class="nav-item elemento submenu">
                 <a class="nav-link" href="/enlaces/noticias.html">Noticias</a>
               </li>
-              <li class="nav-item elemento">
-                <a class="nav-link" href="/enlaces/e-sports.html">E-Sports</a>
-              </li>
+              
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Juego
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                +Información
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Tienda</a></li>
-                  <li><a class="dropdown-item" href="#">Parches</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Actualizaciones</a></li>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="/enlaces/e-sports.html">E-Sports</a></li>
+                  <li><a class="dropdown-item" href="/enlaces/e-sports.html">Dota Pro Circuit</a></li>
                 </ul>
               </li>
             </ul>
             <!--agregue la clase newbutton y los cambios estan en style.css-->
             <button type="button" class="btn btn-secondary m-1"><a class="steambutton" href="https://store.steampowered.com/about/?snr=1_5_9__global-header"><i class="fas fa-download"></i> Instalar Steam</a></button>
-            <button type="button" class="btn btn-light newbutton"><a class="loginbutton" href=""><i class="fab fa-steam"> </i>
+            <button type="button" class="btn btn-light newbutton"><a class="loginbutton" href="https://store.steampowered.com/login/?redir=%3Fl%3Dspanish&redir_ssl=1&snr=1_4_4__global-header"><i class="fab fa-steam"> </i>
               Iniciar Sesión
             </a></button>
           </div>
@@ -80,24 +85,24 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="/carouseldota/alchemist.png" class="d-block w-100" alt="...">
+              <img src="/carouseldota/alchemist.png" class="d-block w-100" alt="alchemist">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Darkbrew Enforcer</h5>
-                <p>Set Alchemist </p>
+                <h1 class="animate__animated animate__bounce">England Rotten</h1>
+                <h2 class="h2title">Set Pudge </h2>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="/carouseldota/clockwerk.png" class="d-block w-100" alt="...">
+              <img src="/carouseldota/clockwerk.png" class="d-block w-100" alt="clockwerk">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Pressure Regulator</h5>
-                <p>Set ClockWerk</p>
+                <h1 class="animate__animated animate__bounce">England Rotten</h1>
+                <h2 class="h2title">Set Pudge </h2>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="/carouseldota/earth-spirit.png" class="d-block w-100" alt="...">
+              <img src="/carouseldota/earth-spirit.png" class="d-block w-100" alt="earth-spirit">
               <div class="carousel-caption d-none d-md-block">
-                <h5>The General Jade</h5>
-                <p>Set Earth Spirit </p>
+                <h1 class="animate__animated animate__bounce">England Rotten</h1>
+                <h2 class="h2title">Set Pudge </h2>
               </div>
             </div>
           </div>
@@ -115,18 +120,19 @@
       <a href="https://api.whatsapp.com/send?phone=+51989882981" class="btn-wsp" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
         <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
       </svg></a>
+      
       <!--earth spirit zone-->
       <section>
         <div class="container">
           <div class="row">
-              <div class="absolute col-12 col-sm-12 col-lg-6">
+              <div class="absolute wow animate__animated animate__fadeInLeft col-12 col-sm-12 col-lg-6">
                 <h2><img class="img-fluid atributoheroe" src="/hero_strength.png" alt=""> FUERZA </h2>
-                <h1>Earth Spirit</h1>
-                <h2>INCAPACITA Y REPOSICIONA A SUS ENEMIGOS.</h2>
-                <p class="description">Earth Spirit mantiene al enemigo en el caos y a sus amigos en la lucha. <span class="Bold">Adaptándose</span> a cualquier escenario de batalla, puede enviar sus <span class="Bold">restos de estatua</span> de ida y vuelta para <span class="Bold">dañar enemigos</span>, o sacar a un aliado de las fauces de la muerte.</p>
+                <h2>Earth Spirit</h2>
+                <h1>¿Qué es Dota 2?</h1>
+                <p class="description">Cada día, millones de jugadores de todo el mundo entran en batalla como uno de los más de cien héroes de Dota en un enfrentamiento por equipos de 5 contra 5. Dota es el juego de estrategia multijugador más profundo jamás creado y siempre hay una nueva estrategia o táctica que descubrir. Jugar a Dota es gratis y siempre lo será. Comienza ya a defender tu Ancestro.</p>
               </div>
-              <div class="video col-12 col-sm-12 col-lg-6">
-                <img class="img-fluid heroes" src="/heroes/earth_spirit.png" alt="">
+              <div class="video wow animate__animated animate__fadeInRight col-12 col-sm-12 col-lg-6">
+                <img class="img-fluid heroes" src="/heroes/earth_spirit.png" alt="earthSpirit">
               </div>
             
           </div>
@@ -137,13 +143,13 @@
         <div class="container">
           <div class="row inverse1">
               <div class="video col-12 col-sm-12 col-lg-6">
-                <img class="img-fluid heroes" src="/heroes/ember_spirit.png" alt="">
+                <img class="img-fluid heroes wow animate__animated animate__fadeInLeft" src="/heroes/ember_spirit.png" alt="emberSpirit">
               </div>
-              <div class="absolute col-12 col-sm-12 col-lg-6">
-                <h2><img class="img-fluid atributoheroe" src="/hero_agility.png" alt=""> AGILIDAD </h2>
-                <h1>Ember Spirit</h1>
-                <h2>ATACA Y ENCADENA RÁPIDAMENTE A SUS ADVERSARIOS.</h2>
-                <p class="description"><span class="Bold">Rápido y elusivo</span>, Ember Spirit golpea a todos los enemigos cercanos en una <span class="Bold">rápida sucesión</span> atándoles con <span class="Bold">candentes cadenas</span>. Corriendo rápidamente por el campo de batalla para llegar a uno de sus <span class="Bold">restos explosivos</span>, pocos pueden evitar o capturar su llama.</p>
+              <div class="absolute wow animate__animated animate__fadeInRight col-12 col-sm-12 col-lg-6">
+                <h2><img class="img-fluid atributoheroe" src="/hero_agility.png" alt="atributo"> AGILIDAD </h2>
+                <h2>Ember Spirit</h2>
+                <h1>¿A quién vas a elegir?</h1>
+                <p class="description">Estrategas de la magia, feroces bestias, astutos pícaros... El conjunto de héroes de Dota 2 es enorme y de una diversidad ilimitada. Lanza increíbles hechizos y devastadoras habilidades definitivas en tu camino hacia la victoria.</p>
               </div>
           </div>
         </div>
@@ -152,14 +158,14 @@
       <section>
         <div class="container">
           <div class="row">
-              <div class="absolute col-12 col-sm-12 col-lg-6">
-                <h2><img class="img-fluid atributoheroe" src="/hero_intelligence.png" alt=""> INTELIGENCIA </h2>
-                <h1>Storm Spirit</h1>
-                <h2>VA VOLANDO A CUALQUIER LADO DEL MAPA PARA PARTICIPAR EN PELEAS.</h2>
-                <p class="description">Storm Spirit nunca se pierde una pelea. <span class="Bold">Desplazándose</span> en forma de rayo de un lado a otro del campo de batalla, golpea a sus enemigos desde todas las direcciones con <span class="Bold">remanentes explosivos</span> y <span class="Bold">ataques cargados</span>, luego desaparece mientras sus enemigos todavía están reaccionando.</p>
+              <div class="absolute wow animate__animated animate__fadeInLeft col-12 col-sm-12 col-lg-6">
+                <h2><img class="img-fluid atributoheroe " src="/hero_intelligence.png" alt="atributo"> INTELIGENCIA </h2>
+                <h2>Storm Spirit</h2>
+                <h1>Dota Pro Circuit</h1>
+                <p class="description">El circuito profesional de Dota presenta una competición de altísimo nivel que se retransmite regularmente en el cliente del juego, en Twitch y en Steam.tv. Esta competición profesional de Dota 2, que culmina cada temporada en The International , el evento que no deberías perderte.</p>
               </div>
               <div class="video col-12 col-sm-12 col-lg-6">
-                <img class="img-fluid heroes" src="/heroes/storm_spirit.png" alt="">
+                <img class="img-fluid heroes wow animate__animated animate__fadeInRight" src="/heroes/storm_spirit.png" alt="stormSpirit">
               </div>
             
           </div>
@@ -170,13 +176,14 @@
         <div class="container">
           <div class="row inverse1">
               <div class="video col-12 col-sm-12 col-lg-6">
-                <img class="img-fluid heroes" src="/heroes/void_spirit.png" alt="">
+                <img class="img-fluid heroes wow animate__animated animate__fadeInLeft" src="/heroes/void_spirit.png" alt="voidSpirit">
               </div>
-              <div class="absolute col-12 col-sm-12 col-lg-6">
-                <h2><img class="img-fluid atributoheroe" src="/hero_intelligence.png" alt=""> INTELIGENCIA </h2>
-                <h1>Void Spirit</h1>
-                <h2>SALE Y ENTRA DEL PLANO MORTAL PARA ATACAR A SUS ENEMIGOS.</h2>
-                <p class="description">Earth Spirit mantiene al enemigo en el caos y a sus amigos en la lucha. <span class="Bold">Adaptándose</span> a cualquier escenario de batalla, puede enviar sus <span class="Bold">restos de estatua</span> de ida y vuelta para <span class="Bold">dañar enemigos</span>, o sacar a un aliado de las fauces de la muerte.</p>
+              <div class="absolute wow animate__animated animate__fadeInRight col-12 col-sm-12 col-lg-6">
+                <h2><img class="img-fluid atributoheroe " src="/hero_intelligence.png" alt="atributo"> INTELIGENCIA </h2>
+                <h2>Void Spirit</h2>
+                <h1>Únete a la batalla.</h1>
+                <div class="botonflexible"><a href="https://store.steampowered.com/app/570/Dota_2/" class="description">Descargar Dota 2</a></div>
+                
               </div>
           </div>
         </div>
@@ -199,27 +206,27 @@
                 </div>
                 <div class="column2">
                     <h2 class="h2title">Redes Sociales</h2>
-                    <div class="row">
+                    <div class="row1">
                         <i class="f-icon fab fa-facebook-f"></i>
                         <label class="redes"><a href="https://www.facebook.com/dota2/" target="_blank">Siguenos en Facebook</a>
                         </label>
                     </div>
-                    <div class="row">
+                    <div class="row1">
                         <i class="f-icon fab fa-twitter"></i>
                         <label class="redes"><a href="https://twitter.com/DOTA2" target="_blank">Siguenos en Twitter</a>
                         </label>
                     </div>
-                    <div class="row">
+                    <div class="row1">
                         <i class="f-icon fab fa-instagram"></i>
                         <label class="redes"><a href="https://www.instagram.com/dota2/" target="_blank">Siguenos en Instagram</a>
                         </label>
                     </div>
-                    <div class="row">
+                    <div class="row1">
                         <i class="f-icon fab fa-reddit-alien"></i>
                         <label class="redes"><a href="https://www.reddit.com/r/DotA2/" target="_blank">Siguenos en Reddit</a>
                         </label>
                     </div>
-                    <div class="row">
+                    <div class="row1">
                         <i class="f-icon fab fa-twitch"></i>
                         <label class="redes"><a href="https://www.twitch.tv/dota2ti" target="_blank">Siguenos en Twitch</a>
                         </label>
@@ -247,20 +254,24 @@
         <div class="container-footer">
             <div class="pfooter">
                 <div class="copyright">
-                    <p>Copyright © 2021 | Todos los Derechos Reservados |<a href="">@said_soon</a></p> 
+                    <p>Copyright © 2021 | Todos los Derechos Reservados |<a href="https://www.instagram.com/">@said_soon</a></p> 
                 </div>
                 <div class="information">
-                    <a href=""> Libro de Reclamos |</a>
-                    <a href=""> Políticas de Privacidad |</a>
-                    <a href=""> Términos y Condiciones </a>    
+                    <a href="#"> Libro de Reclamos |</a>
+                    <a href="#"> Políticas de Privacidad |</a>
+                    <a href="#"> Términos y Condiciones </a>    
                 </div>
             </div>
         </div>
     </footer>
     <!--scripts-->
-    <!-- <script src="menu.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!--wow.js-->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
 
