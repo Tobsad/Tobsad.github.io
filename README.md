@@ -74,7 +74,7 @@ Crypto.com, reveló que la cantidad de poseedores de criptomonedas en el mundo p
 
 ### EQUIPO
 
-###Resalta las cualidades y experiencia
+### Resalta las cualidades y experiencia
 
 ### ¿Quién hace qué y por qué?
 
