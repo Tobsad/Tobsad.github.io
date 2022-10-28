@@ -38,7 +38,7 @@ La masificación en las transacciones con criptomonedas quitando de en medio el 
 Porque las stablecoins brindan una mayor estabilidad ya que mantienen una paridad de 1 a 1 con el dólar estadounidense.
 Porque las establecoins brindan más seguridad que las criptomonedas en general 
  
-¿Qué estás resolviendo?
+### ¿Qué estás resolviendo?
 El miedo a la volatilidad al transaccionar con criptomonedas
 
 
