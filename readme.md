@@ -12,6 +12,8 @@ Para lograr la masificación en las transacciones con criptomonedas quitando de 
 "volatilidad" hemos creado STON: una aplicación que simplifica el tipo de cambio de criptomonedas
 a establecoins.
 
+![Ston!]("https://media.discordapp.net/attachments/1032870498805227615/1035686559955030106/image-removebg-preview_2.png?width=800&height=253")
+
 Nuestra solución  funciona como el tan conocido YAPE, una transacción para lo cual solo necesitas 
 escanear un código QR para efectuar un pago.
 
